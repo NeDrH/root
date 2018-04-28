@@ -21,6 +21,7 @@ public class FirstTask {
 		double k = (drr2[1]-drr1[1])/(drr2[0]-drr1[0]);
 		return k;
 	}
+	//注解
 	//判断此点是否为拐点，返回拐点，否则返回null
 	private static double[] isInflectionPoint(double[][] drr) {
 		int n = drr.length;
